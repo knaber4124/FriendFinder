@@ -8,9 +8,6 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
     <link rel='stylesheet' href='./style.css'>
     <title>Friend Finder - Survey</title>
 </head>
@@ -47,14 +44,14 @@
             <form>
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="email" class="form-control" placeholder="Name" id='name'>
+                    <input type="text" class="form-control" placeholder="Name" id='name'>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlFile1">Upload A Picture Of Yourself</label>
-                    <input type="file" class="form-control-file" id="picture">
+                    <label for="exampleFormControlFile1">Link To A Picture Of Yourself</label>
+                    <input type="text" class="form-control" id="picture">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Like Going To Movies</label>
+                    <label for="exampleFormControlSelect1">Your mind is always buzzing with unexplored ideas and plans.</label>
                     <select class="form-control" id="surveyQuestion1">
                         <option>1</option>
                         <option>2</option>
@@ -64,7 +61,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Like Hiking</label>
+                    <label for="exampleFormControlSelect1">Generally speaking, you rely more on your experience than your imagination.</label>
                     <select class="form-control" id="surveyQuestion2">
                         <option>1</option>
                         <option>2</option>
@@ -74,7 +71,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Are A Dog Person</label>
+                    <label for="exampleFormControlSelect1">You find it easy to stay relaxed and focused even when there is some pressure.
+                        </label>
                     <select class="form-control" id="surveyQuestion3">
                         <option>1</option>
                         <option>2</option>
@@ -84,7 +82,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Are A Cat Person</label>
+                    <label for="exampleFormControlSelect1">You rarely do something just out of sheer curiosity.
+                        </label>
                     <select class="form-control" id="surveyQuestion4">
                         <option>1</option>
                         <option>2</option>
@@ -94,7 +93,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Enjoy Traveling</label>
+                    <label for="exampleFormControlSelect1">People can rarely upset you.</label>
                     <select class="form-control" id="surveyQuestion5">
                         <option>1</option>
                         <option>2</option>
@@ -104,17 +103,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Are An Outgoing Person</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Are A Sports Fan</label>
+                    <label for="exampleFormControlSelect1">It is often difficult for you to relate to other people’s feelings.</label>
                     <select class="form-control" id="surveyQuestion6">
                         <option>1</option>
                         <option>2</option>
@@ -124,7 +113,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Enjoy Reading</label>
+                    <label for="exampleFormControlSelect1">In a discussion, truth should be more important than people’s sensitivities.
+                        </label>
                     <select class="form-control" id="surveyQuestion7">
                         <option>1</option>
                         <option>2</option>
@@ -134,7 +124,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Enjoy Gardening</label>
+                    <label for="exampleFormControlSelect1">You rarely get carried away by fantasies and ideas.
+                        </label>
                     <select class="form-control" id="surveyQuestion8">
                         <option>1</option>
                         <option>2</option>
@@ -144,7 +135,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Enjoy Playing Video Games</label>
+                    <label for="exampleFormControlSelect1">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
+                        </label>
                     <select class="form-control" id="surveyQuestion9">
                         <option>1</option>
                         <option>2</option>
@@ -154,7 +146,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You Enjoy Listening To Music</label>
+                    <label for="exampleFormControlSelect1">You feel more energetic after spending time with a group of people.</label>
                     <select class="form-control" id="surveyQuestion10">
                         <option>1</option>
                         <option>2</option>
@@ -184,6 +176,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src='../data/friends.js'></script>
 </body>
 
 </html>
