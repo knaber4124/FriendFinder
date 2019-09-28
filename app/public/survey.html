@@ -51,7 +51,8 @@
                     <input type="text" class="form-control" id="picture">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                    <label for="exampleFormControlSelect1">Your mind is always buzzing with unexplored ideas and
+                        plans.</label>
                     <select class="form-control" id="surveyQuestion1">
                         <option>1</option>
                         <option>2</option>
@@ -61,7 +62,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">Generally speaking, you rely more on your experience than your imagination.</label>
+                    <label for="exampleFormControlSelect1">Generally speaking, you rely more on your experience than
+                        your imagination.</label>
                     <select class="form-control" id="surveyQuestion2">
                         <option>1</option>
                         <option>2</option>
@@ -71,8 +73,9 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You find it easy to stay relaxed and focused even when there is some pressure.
-                        </label>
+                    <label for="exampleFormControlSelect1">You find it easy to stay relaxed and focused even when there
+                        is some pressure.
+                    </label>
                     <select class="form-control" id="surveyQuestion3">
                         <option>1</option>
                         <option>2</option>
@@ -83,7 +86,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">You rarely do something just out of sheer curiosity.
-                        </label>
+                    </label>
                     <select class="form-control" id="surveyQuestion4">
                         <option>1</option>
                         <option>2</option>
@@ -103,7 +106,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">It is often difficult for you to relate to other people’s feelings.</label>
+                    <label for="exampleFormControlSelect1">It is often difficult for you to relate to other people’s
+                        feelings.</label>
                     <select class="form-control" id="surveyQuestion6">
                         <option>1</option>
                         <option>2</option>
@@ -113,8 +117,9 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">In a discussion, truth should be more important than people’s sensitivities.
-                        </label>
+                    <label for="exampleFormControlSelect1">In a discussion, truth should be more important than people’s
+                        sensitivities.
+                    </label>
                     <select class="form-control" id="surveyQuestion7">
                         <option>1</option>
                         <option>2</option>
@@ -125,7 +130,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlSelect1">You rarely get carried away by fantasies and ideas.
-                        </label>
+                    </label>
                     <select class="form-control" id="surveyQuestion8">
                         <option>1</option>
                         <option>2</option>
@@ -135,8 +140,9 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.
-                        </label>
+                    <label for="exampleFormControlSelect1">You think that everyone’s views should be respected
+                        regardless of whether they are supported by facts or not.
+                    </label>
                     <select class="form-control" id="surveyQuestion9">
                         <option>1</option>
                         <option>2</option>
@@ -146,7 +152,8 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlSelect1">You feel more energetic after spending time with a group of people.</label>
+                    <label for="exampleFormControlSelect1">You feel more energetic after spending time with a group of
+                        people.</label>
                     <select class="form-control" id="surveyQuestion10">
                         <option>1</option>
                         <option>2</option>
@@ -155,7 +162,7 @@
                         <option>5</option>
                     </select>
                 </div>
-                <button type="submit" class="btn btn-primary surveySubmit">Submit</button>
+                <button type="button" class="btn btn-primary surveySubmit">Submit</button>
             </form>
         </div>
         <div class='col-md-1'>
@@ -164,11 +171,29 @@
 
     </div>
 
+    <div class="modal fade" id="friendFoundModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Found A New Friend</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2 class='selectedName'></h2>
+                    <div class='selectedPicture'></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/5dc3777aba.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
